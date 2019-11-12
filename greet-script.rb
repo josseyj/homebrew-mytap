@@ -17,7 +17,7 @@ class GreetScript < Formula
     #                       "--disable-silent-rules",
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
-    bin.install "greet-script"
+    bin.install "greet.sh"
   end
 
   # test do
